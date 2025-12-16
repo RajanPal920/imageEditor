@@ -16,7 +16,6 @@ html {
 }
 main {
   width: 100%;
-
 }
 main section {
   width: 100%;
@@ -117,4 +116,15 @@ main section .right .filter input::-webkit-slider-thumb {
   border-radius: 50%;
   background-color: red;
   margin-top: -8.5px;
+}
+canvas {
+  max-width: 90%;
+  max-height: 80vh;
+  display: none;
+}
+
+.presets{
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gutter-sm);
 }
